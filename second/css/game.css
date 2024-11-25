@@ -1,0 +1,61 @@
+#game_baord {
+    height: 700px;
+    width: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+}
+
+.card {
+    border: none;
+    margin: 2px;
+
+}
+
+#press {
+    display: none;
+}
+
+body {
+    background-image: url("../../images/backgrounImg.png");
+   height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(114 52 52 / 90%); 
+    padding: 100px;
+    border-radius: 10px;
+}
+form button,#btn button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    padding-inline: 50px;
+    font-size: large;
+    border-radius: 50px;
+    border: 5px rgba(114 52 52 / 90%) solid;
+    color: rgba(114 52 52 / 90%);
+}
+#btn{
+position: absolute;
+top:5%;
+left: 5%;
+}
+#btn button{
+    width: 200px;
+}
+h1{
+    color: white;
+}

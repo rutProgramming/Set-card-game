@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="second/css/home_page_game.css">
+    <title>Document</title>
+</head>
+<body>
+    <video src="images/2.mp4" width="100%" height="100%" autoplay muted loop style="height: 120vh;overflow: hidden;"></video>
+
+    <form id="myform">
+        <input type="text" required pattern="[A-Za-z]+" id="name" class="input" placeholder="name">
+        <input type="email"  id="mail" class="input" placeholder="email">
+        <input type="phone" required pattern="^0(([23489])|(5[023478])|(7[0237]))\d{7}$" id="phone"class="input" placeholder="phone">
+        <button type="submit">play</button>
+    </form>        
+
+    <script src="second/js/home_page_game.js"></script>
+</body>
+</html>
